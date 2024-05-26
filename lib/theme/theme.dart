@@ -4,7 +4,7 @@ final darkTheme = ThemeData(
   scaffoldBackgroundColor: Colors.grey[900],
   colorSchemeSeed: Colors.yellow,
   dividerColor: Colors.white24,
-  appBarTheme: AppBarTheme(backgroundColor: Colors.grey[900]),
+  appBarTheme: AppBarTheme(backgroundColor: Colors.grey[900], elevation: 0),
   listTileTheme: const ListTileThemeData(iconColor: Colors.white),
   textTheme: TextTheme(
       bodyMedium: const TextStyle(
